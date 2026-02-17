@@ -1,0 +1,97 @@
+body {
+
+font-family: Arial;
+
+background-color: #f4f6f8;
+
+text-align: center;
+
+margin: 0;
+
+padding: 20px;
+
+}
+
+
+h1 {
+
+margin-bottom: 30px;
+
+}
+
+
+.container {
+
+display: grid;
+
+grid-template-columns: repeat(2, 1fr);
+
+gap: 20px;
+
+max-width: 500px;
+
+margin: auto;
+
+}
+
+
+button {
+
+height: 150px;
+
+font-size: 22px;
+
+border: none;
+
+border-radius: 20px;
+
+background-color: #1976D2;
+
+color: white;
+
+display: flex;
+
+flex-direction: column;
+
+justify-content: center;
+
+align-items: center;
+
+cursor: pointer;
+
+transition: 0.2s;
+
+}
+
+
+button:active {
+
+background-color: #0D47A1;
+
+transform: scale(0.95);
+
+}
+
+
+.emoji {
+
+font-size: 40px;
+
+margin-bottom: 10px;
+
+}
+
+
+/* Responsivo celular */
+
+@media(max-width:500px){
+
+button{
+
+height:130px;
+
+font-size:20px;
+
+}
+
+}

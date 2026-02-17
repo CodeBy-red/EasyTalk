@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Fala Fácil</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+<h1>Fala Fácil</h1>
+
+
+<div class="container">
+
+<button onclick="abrirModal('beberModal')">
+
+<span class="emoji">🥤</span>
+
+<span>Quero beber</span>
+
+</button>
+
+
+<button onclick="falar('Quero comer')">
+
+<span class="emoji">🍽️</span>
+
+<span>Comer</span>
+
+</button>
+
+
+<button onclick="falar('Que horas tomar banho?')">
+
+<span class="emoji">🚿</span>
+
+<span>Banho</span>
+
+</button>
+
+
+<button onclick="abrirModal('dorModal')">
+
+<span class="emoji">😖</span>
+
+<span>Dor</span>
+
+</button>
+
+
+<button onclick="falar('Quero deitar')">
+
+<span class="emoji">🛏️</span>
+
+<span>Deitar</span>
+
+</button>
+
+
+<button onclick="abrirModal('chamarModal')">
+
+<span class="emoji">📢</span>
+
+<span>Chamar</span>
+
+</button>
+
+
+</div>
+
+
+
+<!-- MODAL BEBER -->
+
+<div id="beberModal" class="modal">
+
+<div class="modal-content">
+
+<h2>O que quer beber?</h2>
+
+<button onclick="falar('Quero água')">Água</button>
+
+<button onclick="falar('Quero suco')">Suco</button>
+
+<button onclick="falar('Quero café')">Café</button>
+
+<button onclick="falar('Quero café com leite')">Café com leite</button>
+
+<button onclick="falar('Quero refrigerante')">Refrigerante</button>
+
+<button onclick="fecharModal()">Fechar</button>
+
+</div>
+
+</div>
+
+
+
+<!-- MODAL CHAMAR -->
+
+<div id="chamarModal" class="modal">
+
+<div class="modal-content">
+
+<h2>Quem deseja chamar?</h2>
+
+<button onclick="falar('Eli')">Eli</button>
+
+<button onclick="falar('Mãe')">Mãe</button>
+
+<button onclick="falar('Tal')">Tal</button>
+
+<button onclick="falar('Gabriel')">Gabriel</button>
+
+<button onclick="fecharModal()">Fechar</button>
+
+</div>
+
+</div>
+
+
+
+<!-- MODAL DOR -->
+
+<div id="dorModal" class="modal">
+
+<div class="modal-content">
+
+<h2>Onde dói?</h2>
+
+<button onclick="falar('Dor na cabeça')">Cabeça</button>
+
+<button onclick="falar('Dor no braço')">Braço</button>
+
+<button onclick="falar('Dor na perna')">Perna</button>
+
+<button onclick="falar('Dor nas costas')">Costas</button>
+
+<button onclick="falar('Dor no peito')">Peito</button>
+
+<button onclick="falar('Dor na barriga')">Barriga</button>
+
+<button onclick="fecharModal()">Fechar</button>
+
+</div>
+
+</div>
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
