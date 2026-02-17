@@ -6,6 +6,8 @@ msg.text = texto;
 
 msg.lang = "pt-BR";
 
+msg.rate = 0.9;
+
 speechSynthesis.speak(msg);
 
 fecharModal();
